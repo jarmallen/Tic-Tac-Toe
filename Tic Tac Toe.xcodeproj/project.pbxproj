@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA7F19971C49BD2C00966FFC /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7F19961C49BD2C00966FFC /* O.png */; };
+		FA7F19991C49BD3500966FFC /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7F19981C49BD3500966FFC /* X.png */; };
 		FA8C5DA31C48648E00D95C8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C5DA21C48648E00D95C8E /* AppDelegate.swift */; };
 		FA8C5DA51C48648E00D95C8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C5DA41C48648E00D95C8E /* ViewController.swift */; };
 		FA8C5DA81C48648E00D95C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5DA61C48648E00D95C8E /* Main.storyboard */; };
 		FA8C5DAA1C48648E00D95C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5DA91C48648E00D95C8E /* Assets.xcassets */; };
 		FA8C5DAD1C48648E00D95C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5DAB1C48648E00D95C8E /* LaunchScreen.storyboard */; };
+		FA8C5DB51C48651E00D95C8E /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5DB41C48651E00D95C8E /* board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA7F19961C49BD2C00966FFC /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		FA7F19981C49BD3500966FFC /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
 		FA8C5D9F1C48648E00D95C8E /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8C5DA21C48648E00D95C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8C5DA41C48648E00D95C8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		FA8C5DA91C48648E00D95C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8C5DAC1C48648E00D95C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8C5DAE1C48648E00D95C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8C5DB41C48651E00D95C8E /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				FA8C5DA21C48648E00D95C8E /* AppDelegate.swift */,
 				FA8C5DA41C48648E00D95C8E /* ViewController.swift */,
 				FA8C5DA61C48648E00D95C8E /* Main.storyboard */,
+				FA8C5DB41C48651E00D95C8E /* board.png */,
+				FA7F19961C49BD2C00966FFC /* O.png */,
+				FA7F19981C49BD3500966FFC /* X.png */,
 				FA8C5DA91C48648E00D95C8E /* Assets.xcassets */,
 				FA8C5DAB1C48648E00D95C8E /* LaunchScreen.storyboard */,
 				FA8C5DAE1C48648E00D95C8E /* Info.plist */,
@@ -123,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7F19991C49BD3500966FFC /* X.png in Resources */,
+				FA8C5DB51C48651E00D95C8E /* board.png in Resources */,
+				FA7F19971C49BD2C00966FFC /* O.png in Resources */,
 				FA8C5DAD1C48648E00D95C8E /* LaunchScreen.storyboard in Resources */,
 				FA8C5DAA1C48648E00D95C8E /* Assets.xcassets in Resources */,
 				FA8C5DA81C48648E00D95C8E /* Main.storyboard in Resources */,
@@ -285,6 +297,7 @@
 				FA8C5DB31C48648E00D95C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
